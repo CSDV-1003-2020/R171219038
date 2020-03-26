@@ -15,7 +15,7 @@ class demo
 			}
 			for(int i=0;i<10;i++)
 			{
-				sum=sum+aa[i];
+				sum=sum+a[i];
 			}	
 			cout<<"Sum of the entered number is"<<ends<<sum<<endl;
 		}
