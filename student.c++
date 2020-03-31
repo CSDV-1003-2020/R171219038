@@ -45,6 +45,22 @@ int main()
         return 0;
 }
 
+void result()
+{
+	for (int i=0; i<4;i++)
+	{ 
+		if (sub[i]<40)
+		{
+                    cout<<"Failed";
+		}
+		else
+		{
+                    cout<<"Passed";
+		}
+	}
+}
+
+
 /*driver program
 Enter student's ID, Name and Roll No.
 500076374
