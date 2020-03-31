@@ -42,6 +42,7 @@ int main()
         stu s1;
         s1.student_details();
 	s1.getmarks();
+	s1.result();
         return 0;
 }
 
