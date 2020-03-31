@@ -13,7 +13,7 @@ class stu
         public:
                 void student_details()
                 {
-                        cout<<"Eter student's ID, Name and Roll No."<<endl;
+                        cout<<"Enter student's ID, Name and Roll No."<<endl;
                         cin>>id>>name>>roll_no
                         cout<<"The given information is as follows:"<<endl;
                         cout<<"Name:"<<ends<<name<<endl;
@@ -44,4 +44,20 @@ int main()
 	s1.getmarks();
         return 0;
 }
+
+/*driver program
+Enter student's ID, Name and Roll No.
+500076374
+Tanishka
+R171219037*/
+
+/*OUTPUT
+The given information is as follows:
+Name:Tanishka
+ID:500076374
+Roll No.:R171219037*/
+
+
+
+        
 
