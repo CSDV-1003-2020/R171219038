@@ -5,7 +5,10 @@ class stu
         private:
                 int id;
                 char name[20];
-                int roll_no
+                int roll_no;
+                int sub[4];
+                sum=0;
+                avg;
         public:
                 void student_details()
                 {
@@ -16,11 +19,27 @@ class stu
                         cout<<"ID:"<<ends<<id<<endl;
                         cout<<"Roll No.:"<<ends<<roll_no<<endl;
                 }
+                void getmarks()
+                {
+                        cout<<"Enter marks of four subjects:"<<endl;
+                        for(i=0;i<4;i++)
+                        {
+                                cin>>sub[i];
+                        }        
+                        for(i=0;i<4;i++)
+                        {
+                                sum=sum+sub[i];
+                        }
+                        cout<<"So total marks of subjects are "<<sum<<endl;
+                        avg=sum/4;
+                        cout<<"So average marks of a student are "<<avg<<endl;
+                }        
 };
 int main()
 {
         stu s1;
         s1.student_details();
+        s1.getmarks();
         return 0;
 }
 
