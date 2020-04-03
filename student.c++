@@ -16,9 +16,9 @@ class stu
                         cout<<"Enter student's ID, Name and Roll No."<<endl;
                         cin>>id>>name>>roll_no
                         cout<<"The given information is as follows:"<<endl;
-                        cout<<"Name:"<<ends<<name<<endl;
-                        cout<<"ID:"<<ends<<id<<endl;
-                        cout<<"Roll No.:"<<ends<<roll_no<<endl;
+                        cout<<"Student's Name:"<<ends<<name<<endl;
+                        cout<<"Student's ID:"<<ends<<id<<endl;
+                        cout<<"Student's Roll No.:"<<ends<<roll_no<<endl;
                 }
 		void getmarks()
 		{
