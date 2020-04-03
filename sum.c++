@@ -5,6 +5,7 @@ class demo
 	private:
 		int a[10];
 		int sum=0;
+	        int avg;
 	public:
 		void fun_sum()
 		{
@@ -18,6 +19,8 @@ class demo
 				sum=sum+a[i];
 			}	
 			cout<<"Sum of the entered number is"<<ends<<sum<<endl;
+			avg=sum/10;
+			cout<<"So the average of input numbers is "<<avg<<endl;
 		}
 };
 int main()
