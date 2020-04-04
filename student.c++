@@ -13,7 +13,7 @@ class stu
         public:
                 void student_details()
                 {
-                        cout<<"Eter student's ID, Name and Roll No."<<endl;
+                        cout<<"Enter student's ID, Name and Roll No."<<endl;
                         cin>>id>>name>>roll_no
                         cout<<"The given information is as follows:"<<endl;
                         cout<<"Name:"<<ends<<name<<endl;
@@ -42,6 +42,39 @@ int main()
         stu s1;
         s1.student_details();
 	s1.getmarks();
+	s1.result();
         return 0;
 }
+
+void result()
+{
+	for (int i=0; i<4;i++)
+	{ 
+		if (sub[i]<40)
+		{
+                    cout<<"Failed";
+		}
+		else
+		{
+                    cout<<"Passed";
+		}
+	}
+}
+
+
+/*driver program
+Enter student's ID, Name and Roll No.
+500076374
+Tanishka
+R171219037*/
+
+/*OUTPUT
+The given information is as follows:
+Name:Tanishka
+ID:500076374
+Roll No.:R171219037*/
+
+
+
+        
 
