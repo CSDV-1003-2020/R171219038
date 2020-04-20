@@ -1,15 +1,18 @@
+
+//Code for student details
+
 #include<iostream>
 using namespace std;
 class stu
 {
         private:
                 int id;
-                char name[20];
+                char name[20]; //An array of size 20 wil be created
                 int roll_no
         public:
                 void student_details()
                 {
-                        cout<<"Eter student's ID, Name and Roll No."<<endl;
+                        cout<<"Enter student's ID, Name and Roll No."<<endl;
                         cin>>id>>name>>roll_no
                         cout<<"The given information is as follows:"<<endl;
                         cout<<"Name:"<<ends<<name<<endl;
