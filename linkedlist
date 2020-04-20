@@ -10,7 +10,7 @@ struct node
 int main()
 {
     struct node *prev,*head,*p;
-    int n,i;                        // n is the number of elements
+    int n,i;                        
     printf ("number of elements:");
     scanf("%d",&n);
     head=NULL;
