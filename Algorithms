@@ -42,3 +42,11 @@ void find_test() {
     else
         std::cout << "Moe not found" << std::endl;
 }
+
+void count_test()
+{
+   std::cout<<"\n==============="<<std::endl;
+   std::vector<int>vec{1,2,3,4,5,1,2,1};
+   int num = std::count(vec.begin(),vec.end(),1);
+   std::cout<<num<<"occurences found"<<std::endl;
+}   
