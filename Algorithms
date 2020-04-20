@@ -49,6 +49,17 @@ void count_test()
    std::vector<int>vec{1,2,3,4,5,1,2,1};
    int num = std::count(vec.begin(),vec.end(),1);
    std::cout<<num<<"occurences found"<<std::endl;
+
+}   
+void string_transform_test()
+{
+    std::cout << "\n========================" << std::endl;
+
+    std::string str1 {"This is a test"};
+    std::cout << "Before transform: " << str1 << std::endl;
+    std::transform(str1.begin(), str1.end(), str1.begin(), ::toupper);
+    std::cout << "After transform: " << str1 << std::endl;
+=======
 }
 void count_if_test() {
     std::cout << "\n========================" << std::endl;
@@ -91,4 +102,5 @@ void all_of_test() {
         std::cout << "All the elements are < 20" << std::endl;
     else    
         std::cout << "Not all the elements are < 20" << std::endl;        
+
 }
