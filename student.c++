@@ -1,15 +1,21 @@
 
+
 #include<iostream>
 using namespace std;
 class stu
 {
         private:
                 int id;
+
+                char name[20]; //An array of size 20 wil be created
+                int roll_no
+
                 char name[20];
                 int roll_no;
 		int sub[4];
 		int sum=0;
 		int avg;
+
         public:
                 void student_details()
                 {
