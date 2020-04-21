@@ -1,4 +1,4 @@
-[2:31 AM, 4/21/2020] Tanishka Devops Upes: #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 struct node
@@ -10,7 +10,7 @@ struct node
 int main()
 {
     struct node *prev,*head,*p;
-    int n,i;
+    int n,i;                        
     printf ("number of elements:");
     scanf("%d",&n);
     head=NULL;
